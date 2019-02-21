@@ -9,5 +9,4 @@ public class TrasherSysApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(TrasherSysApplication.class, args);
 	}
-
 }
