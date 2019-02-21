@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MainRestController {
-	@GetMapping("/")
+	@GetMapping(value="/")
 	public String hellow() {
-		return "Hellow World";
+		return "Hellow Clash";
 	}
 }
 
